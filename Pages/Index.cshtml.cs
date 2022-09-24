@@ -15,6 +15,8 @@ namespace WebApplication1.Pages
         public void OnGet()
         {
             CRUDModel crModel = new CRUDModel();
+            crModel.GetStudentByID(1);
+            crModel.UpdateStudent(1, "cd", "ef", 10);
         }
     }
 }
