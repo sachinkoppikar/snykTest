@@ -14,7 +14,7 @@ namespace WebApplication1.Pages
 
         public void OnGet()
         {
-
+            CRUDModel crModel = new CRUDModel();
         }
     }
 }
